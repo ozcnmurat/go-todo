@@ -233,10 +233,10 @@ Bu proje, Go ve Gin framework kullanılarak geliştirilmiş bir TODO liste yöne
 1. Önce "Login" isteğini gönderin ve dönen response'dan token'ı kopyalayın.
 2. Diğer isteklerin Authorization header'ında `Bearer <token>` formatında token'ı kullanın.
 3. İstekleri sırayla test edin:
-    - Todo oluşturun
-    - Todoları listeleyin
-    - Todo'ya item ekleyin
-    - Item'ı güncelleyin
+    - Todo oluşturma
+    - Todoları listeleme
+    - Todo'ya item ekleme
+    - Item'ı güncelleme
 
 ### Notlar
 
