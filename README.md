@@ -226,3 +226,22 @@ Bu proje, Go ve Gin framework kullanılarak geliştirilmiş bir TODO liste yöne
         }
     ]
 }
+```
+
+### Postman Kullanım Adımları
+
+1. Önce "Login" isteğini gönderin ve dönen response'dan token'ı kopyalayın.
+2. Diğer isteklerin Authorization header'ında `Bearer <token>` formatında token'ı kullanın.
+3. İstekleri sırayla test edin:
+    - Todo oluşturun
+    - Todoları listeleyin
+    - Todo'ya item ekleyin
+    - Item'ı güncelleyin
+
+### Notlar
+
+- Token'lar 24 saat geçerlidir.
+- Normal kullanıcılar sadece kendi todo'larını görebilir ve değiştirebilir.
+- Admin kullanıcıları tüm todo'lara erişebilir.
+- Silme işlemleri soft delete şeklinde gerçekleşir.
+- Todo completion yüzdesi, tamamlanan item'ların toplam item sayısına oranıdır.
